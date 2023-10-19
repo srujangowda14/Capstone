@@ -1,0 +1,9 @@
+<app-navbar></app-navbar>
+<div class="d-flex justify-content-center mt-3">
+    <div>
+        <a (click)="navigateToChild('buyReport')" class="me-3 link-style" routerLinkActive="active">Buy report</a>
+        <a (click)="navigateToChild('sellReport')" class="me-3 link-style" routerLinkActive="active">Sell report</a>
+        <!-- <a (click)="navigateToChild('pAndLReport')" class="link-style" routerLinkActive="active">P&L report</a> -->
+    </div>
+</div>
+<router-outlet></router-outlet>

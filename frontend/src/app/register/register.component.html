@@ -1,0 +1,71 @@
+
+<div class="container-fluid" style="justify-content: center; margin-top: 4%;">
+        <div class="row justify-content-center">
+            <h2 style="text-align: center;color: #793FDF;">Register</h2>
+            <div class="col-md-4">
+                <small *ngIf="!emailValid">An user with email Id already exists</small>
+                <div class="registration-form mx-auto shadow p-4">
+                    <!-- <h2 class="mb-4 text-center">Registration Form</h2> -->
+                    <form class="center" [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+                        <div class="form-group mt-3">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control narrow-input p-1 " id="email"
+                             name="email"
+                             formControlName="email">
+                            
+                        </div>
+
+                        <div class="form-group mt-3">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control narrow-input p-1 " id="name"
+                             name="name"  
+                             formControlName="name">
+                             
+                        </div>
+                        
+                        
+                        <div class="form-group mt-3">
+                            <label for="dateOfBirth">Date of Birth:</label>
+                            <input type="date" class="form-control narrow-input p-1" id="dateOfBirth" name="dob" formControlName="dateOfBirth" >
+                        </div>
+
+                        <div *ngIf="registrationForm.get('dateOfBirth')?.hasError('underAge')">
+                            <p class="error-message">You must be at least 18 years old to register.</p>
+                          </div>
+                          
+                        <div class="form-group mt-3">
+                            <label for="country">Country:</label>
+                            <select class="form-control narrow-inpu p-1" id="country" name="country" formControlName="country">
+                                <option value="" selected disabled>Select your country</option>
+                                <option value="USA">USA</option>
+                                <option value="India">India</option>
+                            </select>
+                        </div>
+                        <div class="form-group mt-3" *ngIf="registrationForm.get('country')?.value==='USA'">
+                            <label for="ssn">SSN</label>
+                            <input type="text" class="form-control narrow-input p-1 " id="ssn"
+                             name="ssn" 
+                             formControlName="ssn"  required
+                             >
+                        </div>
+                        <div class="form-group mt-3" *ngIf="registrationForm.get('country')?.value==='India'">
+                            <label for="aadhar">Aadhar Number</label>
+                            <input type="text" class="form-control narrow-input p-1 " id="aadhar"
+                             name="aadhar" 
+                             formControlName="aadhar"  required
+                             >
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="postalCode">Postal Code:</label>
+                            <input type="text" class="form-control narrow-input p-1" id="postalCode" name="postalCode" formControlName="postalCode">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block w-100 pt-1 pb-1 mt-3 border border-0 cursor-pointer" >Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+   

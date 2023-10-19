@@ -1,0 +1,210 @@
+[
+  {
+    "clientId": "1abc",
+    "email": "abc@gmail.com",
+    "name": "Abc",
+    "password": "0123456789",
+    "dateOfBirth": "23/04/2023",
+    "country": "USA",
+    "postalCode": "245678",
+    "identification": [
+      {
+        "type": "ssn",
+        "value": "123-45-6789"
+      }
+    ]
+  },
+  {
+    "clientId": "2abc",
+    "name": "ABC 2",
+    "email": "2abc@gmail.com",
+    "password": "1123456789",
+    "dateOfBirth": "24/04/2023",
+    "country": "USA",
+    "postalCode": "1245678",
+    "identification": [
+      {
+        "type": "ssn",
+        "value": "223-45-6789"
+      }
+    ]
+  },
+  {
+    "email": "abc123@gmail.com",
+    "ssn": "dew",
+    "name": "ABC 123",
+    "password": "12345",
+    "dateOfBirth": "2023-09-06",
+    "country": "USA",
+    "postalCode": "345621"
+  },
+  {
+    "clientId": "",
+    "email": "vmohan@gmail.com",
+    "name": "Vishaka",
+    "ssn": "11-111-1111",
+    "password": "1234",
+    "dateOfBirth": "2001-11-02",
+    "country": "India",
+    "postalCode": "711109",
+    "identification": [
+      {
+        "type": "ssn",
+        "value": "123-45-6789"
+      }
+    ]
+  },
+  {
+    "clientId": "",
+    "email": "rohan@gmail.com",
+    "name": "Rohan",
+    "ssn": "22-222-2222",
+    "password": "12345",
+    "dateOfBirth": "2001-12-10",
+    "country": "India",
+    "postalCode": "711108",
+    "identification": [
+      {
+        "type": "ssn",
+        "value": "123-45-6789"
+      }
+    ]
+  },
+  {
+    "clientId": "",
+    "email": "",
+    "name": "",
+    "ssn": "",
+    "password": "",
+    "dateOfBirth": "",
+    "country": "",
+    "postalCode": "",
+    "identification": [
+      {
+        "type": "ssn",
+        "value": "123-45-6789"
+      }
+    ]
+  },
+  {
+    "clientId": "",
+    "email": "guna@gmail.com",
+    "name": "Guna",
+    "ssn": "33-333-3333",
+    "password": "12345",
+    "dateOfBirth": "2023-09-20",
+    "country": "USA",
+    "postalCode": "711107",
+    "identification": [
+      {
+        "type": "ssn",
+        "value": "123-45-6789"
+      }
+    ]
+  },
+  {
+    "clientId": 0,
+    "email": "vmohan12@gmail.com",
+    "name": "Vishaka",
+    "dateOfBirth": "2023-09-25",
+    "ssn": "22222222",
+    "country": "USA",
+    "postalCode": "33737"
+  },
+  {
+    "clientId": 0,
+    "email": "xyz@gmail.com",
+    "name": "Vishaka",
+    "dateOfBirth": "2023-09-19",
+    "ssn": "22222222",
+    "country": "USA",
+    "postalCode": "33737",
+    "identification": [
+      {
+        "type": "SSN",
+        "value": "22222222"
+      }
+    ],
+    "cash": 1749.3413562499995
+  },
+  {
+    "clientId": 0,
+    "email": "pqr@gmail.com",
+    "name": "PQR",
+    "dateOfBirth": "2023-09-12",
+    "ssn": "22222222",
+    "country": "USA",
+    "postalCode": "33737",
+    "identification": [
+      {
+        "type": "aadhar",
+        "value": ""
+      }
+    ],
+    "cash": 2000
+  },
+  {
+    "clientId": 0,
+    "email": "shravya@gmail.com",
+    "name": "Shravya",
+    "dateOfBirth": "2023-09-26",
+    "ssn": "22222222",
+    "country": "USA",
+    "postalCode": "711109",
+    "identification": [
+      {
+        "type": "aadhar",
+        "value": ""
+      }
+    ],
+    "cash": 2000
+  },
+  {
+    "clientId": 0,
+    "email": "vikasa@gmail.com",
+    "name": "Vikasa",
+    "dateOfBirth": "2023-09-13",
+    "ssn": "333333333",
+    "country": "USA",
+    "postalCode": "82926",
+    "identification": [
+      {
+        "type": "aadhar",
+        "value": ""
+      }
+    ],
+    "cash": 1892.6875000000005
+  },
+  {
+    "clientId": 0,
+    "email": "bnm@gmail.com",
+    "name": "Vishaka",
+    "dateOfBirth": "2023-09-08",
+    "ssn": "22222222",
+    "country": "USA",
+    "postalCode": "33737",
+    "identification": [
+      {
+        "type": "aadhar",
+        "value": ""
+      }
+    ],
+    "cash": 1893.1925
+  },
+  {
+    "clientId": 0,
+    "email": "slmgowda456@gmail.com",
+    "name": "Akmato",
+    "dateOfBirth": "2023-10-03",
+    "ssn": "456789098",
+    "country": "USA",
+    "postalCode": "789098",
+    "identification": [
+      {
+        "type": "aadhar",
+        "value": ""
+      }
+    ],
+    "cash": 2000
+  }
+]

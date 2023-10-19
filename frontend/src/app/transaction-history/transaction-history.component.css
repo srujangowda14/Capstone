@@ -1,0 +1,25 @@
+.symbol-bg {
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .buyType {
+    background-color: #E6F4EA;
+    color: #477333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .sellType {
+    background-color: #FCE8E6;
+    color: #A50E0E;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .delete-action {
+    cursor: pointer;
+    color: silver;
+    font-size: 20px;
+  }

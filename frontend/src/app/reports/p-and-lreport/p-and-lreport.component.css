@@ -1,0 +1,15 @@
+th{
+    background-color: #793FDF !important;
+    color: white;
+}
+
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.heading{
+    color:#793FDF;
+    text-transform: uppercase;
+}

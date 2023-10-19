@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+
+<mapper namespace="com.fidelity.portfolio.mapper.PortfolioMapper">
+   <resultMap type="com.fidelity.portfolio.Portfolio" id="PortfolioMapper">
+       <id property="clientId" column="CLIENT_ID"/>
+       <result property="instrumentId" column="INSTRUMENT_ID"/>
+       <result property="instrumentDescription" column="INSTRUMENT_DESCRIPTION"/>
+       <result property="boughtPrice" column="BOUGHT_PRICE"/>
+       <result property="quantity" column="QUANTITY"/>
+       <result property="totalInvestment" column="TOTAL_INVESTMENT"/>
+   </resultMap>
+   
+   <select id="getPortfolio" resultMap="PortfolioMapper">
+        SELECT client_id, instrument_id, instrument_description, bought_price,
+        quantity, total_investment from portfolio WHERE client_id = #{clientId} 
+   </select>
+   
+   <select id="getPortfolioParticularInstrument" resultMap="PortfolioMapper">
+        SELECT client_id, instrument_id, instrument_description, bought_price,
+        quantity, total_investment from portfolio WHERE client_id = #{clientId} 
+        AND instrument_id=#{instrumentId}
+   </select>
+   
+   <update id="updatePortfolio" parameterType="Portfolio">
+      UPDATE portfolio
+      SET
+         quantity=#{quantity},
+         total_investment=#{totalInvestment},
+         bought_price=#{boughtPrice}
+      WHERE
+          instrument_id=#{instrumentId}
+          AND client_id = #{clientId}
+                
+   </update>
+   
+    
+    <delete id="deletePortfolio" parameterType="Portfolio">
+		DELETE from portfolio WHERE client_id=#{clientId} and instrument_id=#{instrumentId}
+	</delete>
+    
+</mapper>

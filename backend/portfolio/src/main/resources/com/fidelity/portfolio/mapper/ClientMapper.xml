@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+
+<mapper namespace="com.fidelity.portfolio.mapper.ClientMapper">
+	<resultMap id="ClientWithNestedIdMapper" type="Client">
+		<id property="clientId" column="ID"></id>
+		<result property="email" column="EMAIL"/>
+		<result property="dateOfBirth" column="DATE_OF_BIRTH"/>	
+		<result property="country" column="COUNTRY"/>
+		<result property="postalCode" column="POSTALCODE"/>
+		<result property="name" column="NAME"/>
+		<result property="balance" column="BALANCE"/>
+		<collection property="identifications" resultMap="IdentificationMap" />
+	</resultMap>
+	
+	
+	<resultMap type="ClientIdentification" id="IdentificationMap">
+		
+		<result property="type" column="type"/>
+		<result property="value" column="value"/>
+		
+	</resultMap>
+	
+	<insert id="addClient" parameterType="Client">
+		INSERT INTO person (id, email, date_of_birth, country, postalcode, name, balance)
+		VALUES (#{clientId}, #{email}, #{dateOfBirth}, #{country}, #{postalCode}, #{name} ,#{balance}) 
+	</insert>
+	
+	<insert id="addClientIdentification" parameterType="map">
+		INSERT INTO client_identification (id, type, value) 
+		VALUES (#{clientId}, #{type}, #{value})
+	</insert>
+	
+	
+	 <select id="selectBalanceById" resultType="java.math.BigDecimal">
+        SELECT balance
+        FROM person
+        WHERE id = #{clientId}
+    </select>
+    
+     <select id="selectNameById" resultType="java.lang.String">
+        SELECT name
+        FROM person
+        WHERE id = #{clientId}
+    </select>
+		
+	
+	
+	
+	 <update id="updateClient" parameterType="map">
+		UPDATE person
+		SET balance = #{balance}
+		WHERE id = #{clientId}
+	</update>
+	
+	<select id="queryAllClients" resultMap="ClientWithNestedIdMapper">
+		SELECT p.id, name, email, date_of_birth, country, postalcode, balance, type, value
+		FROM person p
+		LEFT JOIN
+		client_identification c
+		ON p.id = c.id
+		ORDER BY p.id
+	</select>
+	
+	
+</mapper>

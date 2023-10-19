@@ -1,0 +1,77 @@
+
+
+
+
+<app-navbar></app-navbar>
+        <div class="container-fluid mt-2">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="registration-form mx-auto shadow p-4">
+                        <!-- <h2 class="mb-4 text-center">Registration Form</h2> -->
+                        <form class="center" #clientPreferencesForm="ngForm" (ngSubmit)="submitPrefernce()">
+                           
+                           
+                            <div class="form-group mt-3">
+                                <label for="investmentPurpose">Investment Purpose:</label>
+                                <input type="text" class="form-control narrow-input p-1" 
+                                id="investmentPurpose" name="investmentPurpose" 
+                                [(ngModel)]="clientPreferences.investmentPurpose" [disabled]="!isEditMode" 
+                                required>
+                            </div>
+                           
+                           <div class="form-group mt-3">
+                                <label for="riskTolerance">Risk Tolerance:</label>
+                                <select class="form-control narrow-inpu p-1" id="riskTolerance" 
+                                name="riskTolerance"  [(ngModel)]="clientPreferences.riskTolerance"
+                                [disabled]="!isEditMode" 
+                                required>
+                                    <option value="" selected disabled>Select</option>
+                                    
+                                        <option value="conservative">CONSERVATIVE</option>
+                                        <option value="below_average">BELOW AVERAGE</option>
+                                        <option value="average">AVERAGE</option>
+                                        <option value="above_average">ABOVE AVERAGE</option>
+                                        <option value="aggressive">AGGRESSIVE</option>
+                                     </select>
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <label for="incomeCategory">Income Category:</label>
+                                <select class="form-control narrow-inpu p-1" id="incomeCategory" 
+                                name="incomeCategory"
+                                [(ngModel)]="clientPreferences.incomeCategory" [disabled]="!isEditMode" required>
+                                    <option value="" selected disabled>Select</option>
+                                    
+                                    <option value="0 - 20,000">0 - 20,000</option>
+                                    <option value="20,001 - 40,000">20,001 - 40,000</option>
+                                    <option value="40,001 - 60,000">40,001 - 60,000</option>
+                                    <option value="60,001 - 80,000">60,001 - 80,000</option>
+                                    <option value="80,001 - 100,000">80,001 - 100,000</option>
+                                    <option value="80,001 - 100,000">80,001 - 100,000</option>
+                                    <option value="100,001 - 150,000">100,001 - 150,000</option>
+                                     </select>
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <label for="lengthOfInvestments">Length of Investment:</label>
+                                <select class="form-control narrow-inpu p-1" id="lengthOfInvestments" name="lengthOfInvestments" 
+                                 [(ngModel)]="clientPreferences.lengthOfInvestments" [disabled]="!isEditMode">
+                                    <option value="" selected disabled>Select</option>
+                                    <option value="0-5 years">0-5 years</option>
+                                    <option value="5-7 years">5-7 years</option>
+                                    <option value="7-10 years">7-10 years</option>
+                                    <option value="10-15 years ">10-15 years </option>
+ 
+                                     </select>
+                            </div>
+                          
+                            <button  type="submit" class="btn btn-primary btn-block w-100 pt-1 pb-1 mt-3 border border-0 cursor-pointer">Submit</button>
+                            <button (click)="editMode()" 
+                            [disabled]="isEditMode"
+                            class="btn btn-primary btn-block w-100 pt-1 pb-1 mt-3 border border-0 cursor-pointer">
+                            Edit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>

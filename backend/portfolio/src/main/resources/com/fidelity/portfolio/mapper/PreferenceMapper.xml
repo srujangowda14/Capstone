@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fidelity.portfolio.mapper.PreferenceMapper">
+
+  <select id="getAllPreferences" resultType="InvestmentPreference">
+		SELECT CLIENT_ID AS clientId,
+			   INVESTMENT_PURPOSE AS investmentPurpose,
+			   RISK_TOLERANCE AS riskTolerance,
+			   INCOME_CATEGORY AS incomeCategory,
+			   LENGTH_OF_INVESTMENT AS lengthOfInvestments
+		FROM   PREFERENCES
+		
+	</select>
+	
+	<select id="getPreference" parameterType="long" resultType="InvestmentPreference" >
+		SELECT CLIENT_ID AS clientId,
+			   INVESTMENT_PURPOSE AS investmentPurpose,
+			   RISK_TOLERANCE AS riskTolerance,
+			   INCOME_CATEGORY AS incomeCategory,
+			   LENGTH_OF_INVESTMENT AS lengthOfInvestments
+		FROM   PREFERENCES
+		WHERE CLIENT_ID = #{clientId}
+	
+	</select>
+	
+	
+	
+	<insert id="insertPreference" parameterType="InvestmentPreference">
+		INSERT INTO  PREFERENCES (
+		       CLIENT_ID ,
+			   INVESTMENT_PURPOSE,
+			   RISK_TOLERANCE,
+			   INCOME_CATEGORY,
+			   LENGTH_OF_INVESTMENT
+			   )
+		VALUES (
+			   #{clientId},
+			   #{investmentPurpose},
+			   #{riskTolerance},
+			   #{incomeCategory},
+			   #{lengthOfInvestments}
+		)
+	</insert>
+
+	<update id="updatePreference" parameterType="InvestmentPreference">
+		UPDATE PREFERENCES
+		SET    INVESTMENT_PURPOSE=  #{investmentPurpose},
+		       RISK_TOLERANCE=  #{riskTolerance},
+		       INCOME_CATEGORY= #{incomeCategory},
+		       
+		        LENGTH_OF_INVESTMENT=  #{lengthOfInvestments}
+		WHERE   CLIENT_ID = #{clientId}
+	</update>
+	
+	</mapper>

@@ -1,0 +1,41 @@
+<app-navbar></app-navbar>
+
+
+
+
+
+  <div class="container-fluid" style="text-align: center; margin-top: 4%;">
+
+    
+    <h3 style="text-align: left;">Your portfolio</h3>
+    
+    
+    
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Instrument Id</th>
+          <th>Instrument Desc</th>
+          <th>Bought price</th>
+          <th>Quantity</th>
+          <th>Total Investment</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let instrument of portfolio">
+            <td>{{instrument.instrumentId}}</td> 
+           <td>{{instrument.instrumentDescription}}</td> 
+           <td>{{instrument.boughtPrice | number:'.4'}}</td> 
+           <td>{{instrument.quantity}}</td> 
+           <td>{{instrument.totalInvestment | number:'.4'}}</td>
+           <td>
+            
+            <button class="btn btn-danger" [routerLink]="['/sell', instrument.instrumentId]">Sell</button>
+          </td>
+        </tr>
+       
+       
+      </tbody>
+    </table>
+  </div>
+  

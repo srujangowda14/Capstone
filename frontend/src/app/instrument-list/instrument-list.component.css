@@ -1,0 +1,12 @@
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.active {
+    color: #793FDF;
+}
+
+.inactive {
+    color: black;
+}

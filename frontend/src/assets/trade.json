@@ -1,0 +1,342 @@
+[
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.75,
+    "direction": "B",
+    "clientId": "513275530",
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 104,
+      "direction": "B",
+      "clientId": "513275530",
+      "email": "xyz@gmail.com",
+      "token": "513152074"
+    },
+    "tradeId": "2gw9mkklyfb-tro844dw4bj-jkgvlkk0q3",
+    "cashValue": 105.7975,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T05:50:25.755Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.75,
+    "direction": "B",
+    "clientId": "513275530",
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 104,
+      "direction": "B",
+      "clientId": "513275530",
+      "email": "xyz@gmail.com",
+      "token": "513152074"
+    },
+    "tradeId": "se2vwtionfj-9zdn7tld3kr-bk1piricm7l",
+    "cashValue": 105.7975,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T06:15:04.901Z"
+  },
+  {
+    "instrumentId": "T67890",
+    "quantity": 100,
+    "executionPrice": 1.03375,
+    "direction": "B",
+    "clientId": "513275530",
+    "order": {
+      "instrumentId": "T67890",
+      "quantity": 100,
+      "targetPrice": 1,
+      "direction": "B",
+      "clientId": "513275530",
+      "email": "xyz@gmail.com",
+      "token": "513152074"
+    },
+    "tradeId": "hydbwxusq6p-l2jfpk3a6n-3nxxg9n575j",
+    "cashValue": 104.40875,
+    "instrumentDescription": "USA, Note 3.125 15nov2028 10Y",
+    "date": "2023-09-06T06:15:46.258Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.25,
+    "direction": "S",
+    "clientId": 513275530,
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 104,
+      "direction": "S",
+      "clientId": "513275530",
+      "email": "xyz@gmail.com",
+      "token": "513152074"
+    },
+    "tradeId": "oy8s7m5h2jb-6wk6ugjegw-gwemioac1jo",
+    "cashValue": 105.2925,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T06:17:17.974Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.25,
+    "direction": "S",
+    "clientId": 876686024,
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 104,
+      "direction": "S",
+      "clientId": "876686024",
+      "email": "vikasa@gmail.com",
+      "token": "876562568"
+    },
+    "tradeId": "49yd1ptmi04-3li13vmzh9o-94l2yi6l40l",
+    "cashValue": 105.2925,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T06:18:25.355Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.75,
+    "direction": "B",
+    "clientId": "876686024",
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 104,
+      "direction": "B",
+      "clientId": "876686024",
+      "email": "vikasa@gmail.com",
+      "token": "876562568"
+    },
+    "tradeId": "dmyg5uokbr-mqnj5kj4u-tbhe1jpul7",
+    "cashValue": 105.7975,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T06:19:06.602Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.25,
+    "direction": "S",
+    "clientId": 876686024,
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 104,
+      "direction": "S",
+      "clientId": "876686024",
+      "email": "vikasa@gmail.com",
+      "token": "876562568"
+    },
+    "tradeId": "4bczoogipba-uvf23gdadqs-ch0lgohm6uw",
+    "cashValue": 105.2925,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T06:19:51.182Z"
+  },
+  {
+    "instrumentId": "T67890",
+    "quantity": 5,
+    "executionPrice": 1.03390625,
+    "direction": "S",
+    "clientId": 513275530,
+    "order": {
+      "instrumentId": "T67890",
+      "quantity": 5,
+      "targetPrice": 1.03375,
+      "direction": "S",
+      "clientId": "513275530",
+      "email": "xyz@gmail.com",
+      "token": "513152074"
+    },
+    "tradeId": "vu2st37fcc-39dqk9t0jwc-tkf34e8crxf",
+    "cashValue": 5.2212265625,
+    "instrumentDescription": "USA, Note 3.125 15nov2028 10Y",
+    "date": "2023-09-06T07:40:03.400Z"
+  },
+  {
+    "instrumentId": "T67890",
+    "quantity": 1,
+    "executionPrice": 1.03390625,
+    "direction": "S",
+    "clientId": 513275530,
+    "order": {
+      "instrumentId": "T67890",
+      "quantity": 1,
+      "targetPrice": 1,
+      "direction": "S",
+      "clientId": "513275530",
+      "email": "xyz@gmail.com",
+      "token": "513152074"
+    },
+    "tradeId": "otd59yy153-q9ivmcaa2re-ss9v3t58b8",
+    "cashValue": 1.0442453125,
+    "instrumentDescription": "USA, Note 3.125 15nov2028 10Y",
+    "date": "2023-09-06T07:41:15.474Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.75,
+    "direction": "B",
+    "clientId": "876686024",
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 104,
+      "direction": "B",
+      "clientId": "876686024",
+      "email": "vikasa@gmail.com",
+      "token": "876562568"
+    },
+    "tradeId": "l7gg9ji3l9i-l88r4jdufd-zqqiuw72zig",
+    "cashValue": 105.7975,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T07:53:20.783Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.25,
+    "direction": "S",
+    "clientId": 876686024,
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 104,
+      "direction": "S",
+      "clientId": "876686024",
+      "email": "vikasa@gmail.com",
+      "token": "876562568"
+    },
+    "tradeId": "ho2sdy6rj85-tfood99u5j-cvytdxq49t",
+    "cashValue": 105.2925,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T07:53:53.549Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.25,
+    "direction": "S",
+    "clientId": 513275530,
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 105,
+      "direction": "S",
+      "clientId": "513275530",
+      "email": "xyz@gmail.com",
+      "token": "513152074"
+    },
+    "tradeId": "isz62l82vwd-g02n9bq5q7r-p5wemv3ffce",
+    "cashValue": 105.2925,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T08:11:20.085Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.75,
+    "direction": "B",
+    "clientId": "513275530",
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 104.75,
+      "direction": "B",
+      "clientId": "513275530",
+      "email": "xyz@gmail.com",
+      "token": "513152074"
+    },
+    "tradeId": "9zkvdkxwy-t32idt4wupf-l2ierccpm5",
+    "cashValue": 105.7975,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T09:37:09.900Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.75,
+    "direction": "B",
+    "clientId": "1156418542",
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 104.75,
+      "direction": "B",
+      "clientId": "1156418542",
+      "email": "bnm@gmail.com",
+      "token": "1156295086"
+    },
+    "tradeId": "m7win2cjlhp-m4472e3i4p-sb6nbufkoo",
+    "cashValue": 105.7975,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T10:12:41.561Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.25,
+    "direction": "S",
+    "clientId": 1156418542,
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 104.25,
+      "direction": "S",
+      "clientId": "1156418542",
+      "email": "bnm@gmail.com",
+      "token": "1156295086"
+    },
+    "tradeId": "3bbv3tc4z4s-mtapst51ddn-xtz809zwjs",
+    "cashValue": 105.2925,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T10:14:21.716Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 2,
+    "executionPrice": 104.75,
+    "direction": "B",
+    "clientId": "1156418542",
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 2,
+      "targetPrice": 104.75,
+      "direction": "B",
+      "clientId": "1156418542",
+      "email": "bnm@gmail.com",
+      "token": "1156295086"
+    },
+    "tradeId": "re0svu9xbrk-ao6k2ftrz8q-5cj0cz9pmpq",
+    "cashValue": 211.595,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T10:14:47.819Z"
+  },
+  {
+    "instrumentId": "N123456",
+    "quantity": 1,
+    "executionPrice": 104.25,
+    "direction": "S",
+    "clientId": 1156418542,
+    "order": {
+      "instrumentId": "N123456",
+      "quantity": 1,
+      "targetPrice": 104.25,
+      "direction": "S",
+      "clientId": "1156418542",
+      "email": "bnm@gmail.com",
+      "token": "1156295086"
+    },
+    "tradeId": "lbd80p2vns-0j2ad68zq5b-bcb4a7zmktn",
+    "cashValue": 105.2925,
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "date": "2023-09-06T10:14:57.705Z"
+  }
+]

@@ -1,0 +1,28 @@
+<header>
+    <h4 class="text-center heading mt-3">Sell report</h4>
+</header>
+<div class="w-75">
+    <button class="btn btn-primary me-0 button" (click)="exportTableToExcel()">Export to Excel</button>
+</div>
+<table class="table table-striped table-bordered mt-3 text-center w-75 mx-auto" #table>
+    <thead>
+        <tr>
+            <th>Instrument ID</th>
+            <th>Trade ID</th>
+            <th>Qty</th>
+            <th>Price</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let sellData of filteredSellData">
+            <td>{{sellData.instrumentId}}</td>
+            <td>{{sellData.tradeId}}</td>
+            <td>{{sellData.quantity}}</td>
+            <td>{{sellData.price| number : '.2-2'}}</td>
+            <td>{{sellData.cashValue | number : '.2-2'}}</td>
+        </tr>
+    </tbody>
+</table>
+
+

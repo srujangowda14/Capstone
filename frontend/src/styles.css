@@ -1,0 +1,80 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+/* Add these styles to your existing styles.css or the component's CSS file */
+
+html{
+  /* font-family: Arial, Helvetica, sans-serif !important;? */
+  /* font-family: 'Nanum Myeongjo', serif; */
+font-family:  sans-serif;
+}
+
+
+.benefits {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+  }
+  
+  .benefits-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .benefit {
+    flex: 1;
+    max-width: calc(33.33% - 20px); /* Adjust as needed for spacing */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .benefit i {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .benefit h4 {
+    margin-bottom: 10px;
+  }
+
+  .btn-primary{
+    background-color: #793FDF !important;
+    border-radius: 30px !important;
+    font-weight: 600 !important;
+  }
+
+  .btn-primary:hover{
+    background-color: #e5daf8 !important;
+    color: #793FDF !important;
+    transition: 5ms ease-out !important;
+    border: 2px #793FDF;
+  }
+
+
+  .btn-danger{
+    background-color: #a94442 !important;
+  }
+  .btn-success{
+    background-color: #42A948 !important;
+  }
+  .active{
+    color: #793FDF !important;
+  }
+  
+  input.ng-valid {
+    border: 2px solid #42A948;
+   }
+   input.ng-invalid {
+    border: 2px solid #a94442;
+   }
+  /* Font Awesome icons */
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+  

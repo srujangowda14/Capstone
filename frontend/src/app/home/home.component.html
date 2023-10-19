@@ -1,0 +1,43 @@
+
+
+<app-navbar></app-navbar>
+
+
+<div class="container mt-4">
+    <div class="row">
+      <small style="color: green;" *ngIf="displayClientId">This is your clientId: {{clientId}}. Note it down for future login</small>
+      <div class="col-md-7">
+        <!-- Left Column Content -->
+        <h4>Your Portfolio</h4>
+        <app-portfolio></app-portfolio>
+      
+      </div>
+      <div class="col-md-5">
+        <!-- Right Column Content -->
+        <br>
+        <h4>Hi, {{userName}} </h4>
+        <div class="row">
+          <div class="col">
+            <!-- First Row Content -->
+            <div class="right-row">
+                <h5>Your balance</h5>
+                <p>${{cash | number:'.2'}}</p>
+            </div>
+          </div>
+        </div>
+         
+        <div class="row mt-4">
+          <div class="col">
+            <app-pie-chart></app-pie-chart>
+            <app-pie-chart-investment></app-pie-chart-investment>
+            <!-- Third Row Content -->
+            <!-- <div class="right-row">
+                <app-pie-chart></app-pie-chart>
+            </div>
+          </div> --> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  

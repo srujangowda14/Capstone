@@ -1,0 +1,1001 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 150,
+    "quantity": 15,
+    "ti": 12345,
+    "type": "buy",
+    "date": "2023-08-15T10:30:00.000Z"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "price": 2800,
+    "quantity": 10,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-08-14T14:45:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 180,
+    "quantity": 25,
+    "ti": 67890,
+    "type": "buy",
+    "date": "2023-08-13T09:15:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 250,
+    "quantity": 5,
+    "ti": 98765,
+    "type": "sell",
+    "date": "2023-08-12T16:20:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 2000,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-08-11T12:00:00.000Z"
+  },
+  {
+    "symbol": "FB",
+    "name": "Meta Platforms, Inc.",
+    "price": 340,
+    "quantity": 20,
+    "ti": 12345,
+    "type": "sell",
+    "date": "2023-08-10T11:30:00.000Z"
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "price": 300,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-08-09T15:10:00.000Z"
+  },
+  {
+    "symbol": "NFLX",
+    "name": "Netflix, Inc.",
+    "price": 450,
+    "quantity": 12,
+    "ti": 98765,
+    "type": "sell",
+    "date": "2023-08-08T09:45:00.000Z"
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc.",
+    "price": 2700,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "buy",
+    "date": "2023-08-07T14:55:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 160,
+    "quantity": 15,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-08-06T10:05:00.000Z"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "price": 2750,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "buy",
+    "date": "2023-08-05T11:20:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1980,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-08-04T13:40:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 155,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "buy",
+    "date": "2023-08-03T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 178,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "sell",
+    "date": "2023-08-02T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 240,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-08-01T14:10:00.000Z"
+  },
+  {
+    "symbol": "FB",
+    "name": "Meta Platforms, Inc.",
+    "price": 330,
+    "quantity": 20,
+    "ti": 12345,
+    "type": "sell",
+    "date": "2023-07-31T11:30:00.000Z"
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "price": 295,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-07-30T15:10:00.000Z"
+  },
+  {
+    "symbol": "NFLX",
+    "name": "Netflix, Inc.",
+    "price": 440,
+    "quantity": 12,
+    "ti": 98765,
+    "type": "sell",
+    "date": "2023-07-29T09:45:00.000Z"
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc.",
+    "price": 2680,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "buy",
+    "date": "2023-07-28T14:55:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 152,
+    "quantity": 15,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-07-27T10:05:00.000Z"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "price": 2705,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "buy",
+    "date": "2023-07-26T11:20:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1995,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-07-25T13:40:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 157,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "buy",
+    "date": "2023-07-24T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 176,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "sell",
+    "date": "2023-07-23T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 235,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-07-22T14:10:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1975,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-07-21T12:00:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 154,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "buy",
+    "date": "2023-07-20T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 172,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "sell",
+    "date": "2023-07-19T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 230,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-07-18T14:10:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1950,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-07-17T12:00:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 151,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "buy",
+    "date": "2023-07-16T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 170,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "sell",
+    "date": "2023-07-15T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 225,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-07-14T14:10:00.000Z"
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc.",
+    "price": 2630,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "sell",
+    "date": "2023-07-13T14:55:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 148,
+    "quantity": 15,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-07-12T10:05:00.000Z"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "price": 2710,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "sell",
+    "date": "2023-07-11T11:20:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1965,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-07-10T13:40:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 145,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "sell",
+    "date": "2023-07-09T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 168,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "buy",
+    "date": "2023-07-08T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 220,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-07-07T14:10:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1940,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-07-06T12:00:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 142,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "sell",
+    "date": "2023-07-05T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 166,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "buy",
+    "date": "2023-07-04T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 215,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-07-03T14:10:00.000Z"
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc.",
+    "price": 2600,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "buy",
+    "date": "2023-07-02T14:55:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 140,
+    "quantity": 15,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-07-01T10:05:00.000Z"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "price": 2685,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "buy",
+    "date": "2023-06-30T11:20:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1975,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-06-29T13:40:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 135,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "buy",
+    "date": "2023-06-28T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 162,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "sell",
+    "date": "2023-06-27T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 210,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-06-26T14:10:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1930,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-06-25T12:00:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 130,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "buy",
+    "date": "2023-06-24T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 160,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "sell",
+    "date": "2023-06-23T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 205,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-06-22T14:10:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1920,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-06-21T12:00:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 128,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "buy",
+    "date": "2023-06-20T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 158,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "sell",
+    "date": "2023-06-19T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 200,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-06-18T14:10:00.000Z"
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc.",
+    "price": 2605,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "sell",
+    "date": "2023-06-17T14:55:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 126,
+    "quantity": 15,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-06-16T10:05:00.000Z"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "price": 2705,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "sell",
+    "date": "2023-06-15T11:20:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1985,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-06-14T13:40:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 124,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "sell",
+    "date": "2023-06-13T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 156,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "buy",
+    "date": "2023-06-12T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 195,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-06-11T14:10:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1990,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-06-10T12:00:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 122,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "sell",
+    "date": "2023-06-09T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 154,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "buy",
+    "date": "2023-06-08T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 190,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-06-07T14:10:00.000Z"
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc.",
+    "price": 2590,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "buy",
+    "date": "2023-06-06T14:55:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 120,
+    "quantity": 15,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-06-05T10:05:00.000Z"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "price": 2695,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "sell",
+    "date": "2023-06-04T11:20:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1995,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-06-03T13:40:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 118,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "sell",
+    "date": "2023-06-02T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 152,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "buy",
+    "date": "2023-06-01T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 185,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-05-31T14:10:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 1980,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-05-30T12:00:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 115,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "sell",
+    "date": "2023-05-29T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 150,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "buy",
+    "date": "2023-05-28T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 180,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-05-27T14:10:00.000Z"
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc.",
+    "price": 2585,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "buy",
+    "date": "2023-05-26T14:55:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 112,
+    "quantity": 15,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-05-25T10:05:00.000Z"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "price": 2680,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "sell",
+    "date": "2023-05-24T11:20:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 2000,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-05-23T13:40:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 110,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "sell",
+    "date": "2023-05-22T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 148,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "buy",
+    "date": "2023-05-21T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 175,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-05-20T14:10:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 2050,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-05-19T12:00:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 108,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "sell",
+    "date": "2023-05-18T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 146,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "buy",
+    "date": "2023-05-17T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 170,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-05-16T14:10:00.000Z"
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc.",
+    "price": 2575,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "buy",
+    "date": "2023-05-15T14:55:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 105,
+    "quantity": 15,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-05-14T10:05:00.000Z"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "price": 2665,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "sell",
+    "date": "2023-05-13T11:20:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 2010,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-05-12T13:40:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 102,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "sell",
+    "date": "2023-05-11T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 144,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "buy",
+    "date": "2023-05-10T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 165,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-05-09T14:10:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 2040,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-05-08T12:00:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 100,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "sell",
+    "date": "2023-05-07T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 142,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "buy",
+    "date": "2023-05-06T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 160,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-05-05T14:10:00.000Z"
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc.",
+    "price": 2560,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "buy",
+    "date": "2023-05-04T14:55:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 98,
+    "quantity": 15,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-05-03T10:05:00.000Z"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "price": 2650,
+    "quantity": 10,
+    "ti": 12345,
+    "type": "sell",
+    "date": "2023-05-02T11:20:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 2020,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-05-01T13:40:00.000Z"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "price": 96,
+    "quantity": 15,
+    "ti": 67890,
+    "type": "sell",
+    "date": "2023-04-30T15:50:00.000Z"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": 140,
+    "quantity": 25,
+    "ti": 98765,
+    "type": "buy",
+    "date": "2023-04-29T12:30:00.000Z"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": 155,
+    "quantity": 5,
+    "ti": 54321,
+    "type": "sell",
+    "date": "2023-04-28T14:10:00.000Z"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "price": 2005,
+    "quantity": 8,
+    "ti": 54321,
+    "type": "buy",
+    "date": "2023-04-27T12:00:00.000Z"
+  }
+]

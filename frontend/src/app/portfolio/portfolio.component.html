@@ -1,0 +1,46 @@
+<div *ngIf = "portfolio.length>0">
+  <div class="row shadow mt-3" *ngFor="let portfolioItem of portfolio">
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-3">
+                <p>Qty. {{portfolioItem.quantity}}</p>
+            </div>
+            <div class="col-md-6">
+                <p>Avg. {{portfolioItem.boughtPrice | number: '.2-2'}}</p>
+            </div>
+        </div>
+        <div class="row">
+             <h4 class="instrument_name">{{portfolioItem.instrumentDescription}}</h4>
+        </div>
+        <div class="row">
+            <p>Invested ${{portfolioItem.totalInvestment | number: '.2-2'}}</p>
+        </div>
+    </div> 
+    <div class="col-md-6">
+      <div class="d-flex justify-content-end" 
+        [ngClass]="((getPriceByInstrumentId(portfolioItem.instrumentId)* portfolioItem.quantity)- portfolioItem.totalInvestment)>0 ? 'green': 'red'">
+        <p name="total_returns">{{((getPriceByInstrumentId(portfolioItem.instrumentId)* portfolioItem.quantity - portfolioItem.totalInvestment)/portfolioItem.totalInvestment)*100 | number: '.2-2'}}%</p>
+      </div>
+      <div class="d-flex justify-content-end" 
+      [ngClass]="((getPriceByInstrumentId(portfolioItem.instrumentId)* portfolioItem.quantity)- portfolioItem.totalInvestment)>0 ? 'green': 'red'">
+        <p>{{((getPriceByInstrumentId(portfolioItem.instrumentId)* portfolioItem.quantity)- portfolioItem.totalInvestment) | number: '.2-2'}} </p>
+      </div>
+      <div class="d-flex justify-content-end"
+      [ngClass]="((getPriceByInstrumentId(portfolioItem.instrumentId)* portfolioItem.quantity)- portfolioItem.totalInvestment)>0 ? 'green': 'red'">
+        <p name="current_price">LTP {{getPriceByInstrumentId(portfolioItem.instrumentId) | number}}</p>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11"></div>
+        <div class="col-md-1">
+            <button class="btn btn-danger ps-3 pe-3 mb-2 float-right" [routerLink]="['/sell', portfolioItem.instrumentId]">Sell</button>
+        </div>
+        
+    </div>
+</div>
+</div>
+
+<div *ngIf="portfolio.length==0">
+  <p>You currently don't own any stocks. Start investing!</p>
+</div>
+

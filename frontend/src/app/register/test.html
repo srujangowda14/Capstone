@@ -1,0 +1,48 @@
+<app-navbar></app-navbar>
+<div class="container-fluid mt-2">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="registration-form mx-auto shadow p-4">
+                    <!-- <h2 class="mb-4 text-center">Registration Form</h2> -->
+                    <form class="center" [formGroup]="registrationForm" (ngSubmit)="onSubmit()" #clientForm="ngForm">
+                        <div class="form-group mt-3">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control narrow-input p-1 " id="email"
+                             name="email"  
+                             pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" 
+                             formControlName="email">
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="ssn">SSN</label>
+                            <input type="text" class="form-control narrow-input p-1 " id="text"
+                             name="ssn" 
+                             formControlName="ssn"  required
+                             >
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="password">Password:</label>
+                            <input type="password" class="form-control narrow-input p-1" id="password" name="password" formControlName="password" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="dob">Date of Birth:</label>
+                            <input type="date" class="form-control narrow-input p-1" id="dob" name="dob" formControlName="dateOfBirth" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="country">Country:</label>
+                            <select class="form-control narrow-inpu p-1" id="country" name="country" formControlName="country" required>
+                                <option value="" selected disabled>Select your country</option>
+                                <!-- Add country options here -->
+                            </select>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="postalCode">Postal Code:</label>
+                            <input type="text" class="form-control narrow-input p-1" id="postalCode" name="postalCode" formControlName="postalCode" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block w-100 pt-1 pb-1 mt-3 border border-0 cursor-pointer">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   

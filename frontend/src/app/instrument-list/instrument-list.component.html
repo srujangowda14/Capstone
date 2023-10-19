@@ -1,0 +1,44 @@
+<app-navbar></app-navbar>
+
+
+
+
+
+  <div class="container-fluid" style="text-align: center; margin-top: 4%;">
+
+    
+    <h3 style="text-align: left; color: #793FDF;" class="text-center">Buy</h3>
+    <div style="margin-bottom: 10px;">
+        <a style="margin-right: 10px;" [ngClass]="{'active': allActive, 'inactive': !allActive}" (click)="loadInstruments()">All instruments</a>
+        <a style="margin-right: 10px;" [ngClass]="{'active': stocksActive, 'inactive': !stocksActive}" (click)="loadStocks()">Stocks only</a>
+        <a (click)="loadGovt()" [ngClass]="{'active': govtActive, 'inactive': !govtActive}">Govt instruments only</a>
+    </div>
+    
+    
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Instrument Id</th>
+          <th>Instrument Desc</th>
+          <th>Ask price</th>
+          <th>Bid price</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let instrument of instrumentList">
+            <td>{{instrument.instrument.externalId}}</td> 
+           <td>{{instrument.instrument.instrumentDescription}}</td> 
+           <td>{{instrument.askPrice | number: '.8'}}</td> 
+           <td>{{instrument.bidPrice | number: '.8'}}</td> 
+           <td>
+            <button class="btn btn-success" style="margin-right: 10px;" [routerLink]="['/buy', instrument.instrument.instrumentId]">Buy</button>
+           
+          </td>
+        </tr>
+       
+       
+      </tbody>
+    </table>
+  </div>
+  

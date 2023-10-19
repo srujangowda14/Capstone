@@ -1,0 +1,26 @@
+/* .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2 !important;
+}
+
+.form-container {
+   
+   height: 500px;
+    
+  }
+   */
+.message_style{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 80px;
+    position:fixed;
+    bottom: 0;
+    right: 20px;
+    text-align: center;
+
+}
+.message_btn{
+    border: none;
+    color: white;
+    background-color: red;
+}

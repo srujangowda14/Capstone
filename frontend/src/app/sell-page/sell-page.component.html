@@ -1,0 +1,52 @@
+<app-navbar></app-navbar>
+
+<div class="container" *ngIf="!isObjectEmpty(currentInstrument)" style="margin-top: 3%;">
+
+
+    <h3 style="color: #793FDF; text-align: center;">{{currentInstrument.instrument.instrumentId}}</h3>
+     <h4 style="text-align: center;">Sell {{currentInstrument.instrument.instrumentDescription}}</h4>
+
+     <div style="font-weight: 400; text-align: center;">
+        <span style="color: #793FDF;">Bid price: ${{currentInstrument.bidPrice}}</span>
+        <span style="margin-left: 2%;color: #793FDF;">Current quantity: {{currentQuantity}}</span>
+
+        <span style="margin-left: 2%;color: #793FDF;">Bought at: ${{currentBoughtPrice | number:'.2'}}</span>
+        <span style="margin-left: 2%;color: #793FDF;">Total investment: ${{currentInvestment | number:'.2'}}</span>
+    </div>
+
+     <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                
+                
+                <form [formGroup]="sellForm" (ngSubmit)="sell()">
+                    <!-- Quantity Input -->
+                    <div class="mb-3">
+                        <label for="quantity" class="form-label">Quantity</label>
+                        <input type="number" formControlName="quantity" class="form-control" id="quantity" name="quantity" required>
+                    </div>
+
+                    <!-- Bid Price Input -->
+                    <div class="mb-3">
+                        <label for="targetPrice" class="form-label">Target Price</label>
+                        <input type="number" formControlName="targetPrice" class="form-control" id="targetPrice" name="targetPrice" step="0.01" required>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-primary btn-danger" >Sell</button>
+                    <br>
+                    <small>{{message}}</small>
+                    <div class="mt-4" *ngIf="success === 'success'">
+                        
+                        <p>Cash Value: {{ cashValue | number:'.2' }}</p>
+                        <p>Execution Price: {{ executionPrice | number:'.2' }}</p>
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>

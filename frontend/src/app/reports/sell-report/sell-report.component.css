@@ -1,0 +1,14 @@
+th{
+    background-color: #793FDF !important;
+    color: white;
+}
+.heading{
+    color:#793FDF;
+    text-transform: uppercase;
+}
+.button{
+    border: none;
+    border-radius: 0% !important;
+    float: right;
+    margin-bottom: 20px;
+}

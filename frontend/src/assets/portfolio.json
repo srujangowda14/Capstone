@@ -1,0 +1,18 @@
+[
+  {
+    "instrumentID": "N123456",
+    "instrumentDescription": "JPMorgan Chase & Co. Capital Stock",
+    "boughtPrice": 104.75,
+    "totalInvestment": 318.90749999999997,
+    "quantity": 3,
+    "clientId": 513275530
+  },
+  {
+    "instrumentID": "T67890",
+    "instrumentDescription": "USA, Note 3.125 15nov2028 10Y",
+    "boughtPrice": 1.03375,
+    "totalInvestment": 98.14327812500001,
+    "quantity": 94,
+    "clientId": 513275530
+  }
+]

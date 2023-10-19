@@ -1,0 +1,34 @@
+<app-navbar></app-navbar>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Robo-Advisor - Top 5 Stocks to Buy and Sell</h1>
+            <ul class="trade-list">
+                <li class="trade-item buy-trade" *ngFor="let i of this.transaction_buy">
+                    <div>
+                        <h2>Buy {{i.description}}</h2>
+                        <p>Symbol: {{i.instrument_id}}</p>
+                        <p>Price: {{i.price}}</p>
+                    
+                    </div>
+                    <button (click)="navigateToBuy(i.instrument_id)" class="btn btn-success" style="margin-right: 10px;">Buy</button>
+                    
+                </li>
+                <!-- Add more buy trade items as needed -->
+
+                <!-- Top 5 Stocks to Sell -->
+                <li class="trade-item sell-trade" *ngFor="let j of this.transaction_sell">
+                    <div>
+                        <h2>Buy {{j.description}}</h2>
+                        <p>Symbol: {{j.instrument_id}}</p>
+                        <p>Price: {{j.price}}</p>
+                        
+                    </div>
+                    
+                    <button (click)="navigateToSell(j.instrument_id)" class="btn btn-danger" style="margin-right: 10px;">Sell</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+

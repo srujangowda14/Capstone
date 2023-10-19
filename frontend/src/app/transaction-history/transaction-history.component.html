@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+
+  <div class = container>
+  <div class="container mt-5">
+    <h1 class="mb-4">Transaction History</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Instrument_id</th>
+          <th>Quantity</th>
+          <th>Cash_value</th>
+          <th>Direction</th>
+          <th>Execution_price</th>
+          <th>Timestamp</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let record of th | paginate: {itemsPerPage : 30, currentPage : p}">
+          <td><span class="symbol-bg">{{record.instrument_id}}</span></td>  
+          <td>{{record.quantity}}</td>
+          <td>{{record.cash_value}}</td>
+          <td><span [ngClass]="record.direction=='B'?'buyType':'sellType'">{{record.direction}}</span></td>
+          <td>{{record.execution_price}}</td>
+          <td>{{record.timestamp | date}}</td>
+        </tr>
+        <pagination-controls (pageChange)="p = $event" class = "float-right"></pagination-controls>
+      </tbody>
+    </table>
+  </div>
+  </div>
+

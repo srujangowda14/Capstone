@@ -1,0 +1,91 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvestmentGuru</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+  
+  <!-- Navigation Bar -->
+  <nav id= "navigation-bar" class="navbar navbar-expand-lg navbar-light ">
+    <div  class="container" >
+      <a class="navbar-brand" href="#" style="color: #793FDF;font-weight: bold;font-style: italic;" >InvestmentGuru</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto" >
+          <li class="nav-item">
+            
+            <a class="nav-link" style="font-weight: 600;"  [routerLink]="!getLoggedIn() ? '/home' : '/login'">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" *ngIf="getLoggedIn()"  style="font-weight: 600;"  routerLink="/login">Login</a>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+  
+  </nav>
+  
+  <!-- Hero Section -->
+  <section class="jumbotron text-center" style="background-color: #ebe3e3;">
+    <div class="container">
+      <h1 class="display-4">Trade Smarter with <span style="color: #793FDF; font-weight: 400;font-style: italic;">InvestmentGuru</span></h1>
+      <p class="lead">Invest in the future with our carefully curated stock selections.</p>
+      <a  class="btn btn-primary" *ngIf="getLoggedIn()" routerLink="/register" >Get Started</a>
+    </div>
+  </section>
+  
+  <!-- Featured Stocks Section -->
+  <section class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          
+          <div class="card-body">
+            <h5 class="card-title">Leap Coins</h5>
+            <p class="card-text">Revolutionizing the Fidelity industry.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+    <div class="wrapper" >
+      <!-- Navigation Bar -->
+      
+      <!-- Benefits Section -->
+      <section class="benefits">
+        <div class="container">
+          <h2 class="text-center mb-5">Benefits of Using Our Stock Portfolio</h2>
+          <div class="benefits-wrapper">
+            <div class="benefit">
+              <i class="fas fa-chart-line"></i>
+              <h4>High Returns</h4>
+              <p>Our carefully selected stocks have a history of delivering strong returns.</p>
+            </div>
+            <div class="benefit">
+              <i class="fas fa-shield-alt"></i>
+              <h4>Diversification</h4>
+              <p>Reduce risk by investing in a diversified portfolio across various industries.</p>
+            </div>
+            <div class="benefit">
+              <i class="fas fa-dollar-sign"></i>
+              <h4>Low Fees</h4>
+              <p>We offer competitive management fees, ensuring more of your returns stay in your pocket.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </div>
+  </section>
+  
+  <!-- Footer Section -->
+  <footer class="text-center py-3">
+    <p>&copy; 2023 InvestmentGuru. All rights reserved.</p>
+  </footer>
+  </body>
+  

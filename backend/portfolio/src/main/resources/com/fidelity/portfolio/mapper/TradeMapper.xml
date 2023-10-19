@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fidelity.portfolio.mapper.TradeMapper">
+	<resultMap id="PriceMapper" type="Price">
+		<id property="instrumentId" column="instrument_id"></id>
+		<result property="bidPrice" column="bid_price"/>
+		<result property="askPrice" column="ask_price"/>
+		<result property="timestamp" column="timestamp"/>
+		
+	</resultMap>
+	
+	
+	<resultMap id="TradeMapper" type="Trade">
+		<id property="instrumentId" column="instrument_id"></id>
+		<result property="cashValue" column="cash_value"/>
+		<result property="quantity" column="quantity"/>
+		<result property="direction" column="direction"/>
+		<result property="executionPrice" column="execution_price"/>
+		<result property="clientId" column="client_id"/>
+		<result property="tradeId" column="trade_id"/>
+		<result property="timestamp" column="timestamp"/>
+		
+	</resultMap>
+	
+	<insert id="insertTrade" parameterType="com.fidelity.portfolio.Trade">
+        INSERT INTO trade (instrument_id, cash_value, quantity, direction, timestamp, execution_price, trade_id, client_id)
+        VALUES (#{instrumentId}, #{cashValue}, #{quantity}, #{direction}, #{timestamp}, #{executionPrice}, #{tradeId}, #{clientId})
+    </insert>
+    
+      
+	
+	<resultMap id="ClientMapper" type="Client">
+		<id property="clientId" column="ID"></id>
+		<result property="email" column="EMAIL"/>
+		<result property="dateOfBirth" column="DATE_OF_BIRTH"/>	
+		<result property="country" column="COUNTRY"/>
+		<result property="postalCode" column="POSTALCODE"/>
+		<result property="name" column="NAME"/>
+		<result property="balance" column="BALANCE"/>
+		
+	</resultMap>
+	
+	
+	<select id="queryClientById" resultMap="ClientMapper">
+		SELECT id as clientId, name , email, date_of_birth as dateOfBirth, country, postal_code as postalCode, balance
+		FROM person p
+		WHERE id = #{clientId}
+		
+	</select>
+	
+	
+	
+	<select id="queryAllPrices" resultMap="PriceMapper">
+		SELECT instrument_id, ask_price, bid_price, timestamp
+		FROM price
+	</select>
+	
+	<select id="queryAllTrades" resultMap="TradeMapper">
+		SELECT instrument_id, cash_value, quantity, direction, execution_price, trade_id, client_id
+		FROM trade
+	</select>
+	
+	
+	<select id="queryPriceById" resultMap="PriceMapper">
+		SELECT instrument_id, ask_price, bid_price, timestamp
+		FROM price
+		WHERE instrument_id = #{id}
+	</select>
+	
+	
+</mapper>
